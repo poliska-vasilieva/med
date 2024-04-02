@@ -55,6 +55,33 @@
   border-radius: 50%;
 }
 
-.navbar {
+@media (max-width: 992px) {
+  .logo {
+    width: 191px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .img_un {
+    margin-top: -210px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .img_un {
+    margin-top: -190px;
+  }
+}
+
+@media (min-width: 992px) {
+  .img_un {
+    margin-top: -110px;
+  }
+}
+
+@media (max-width: 768px) {
+  .img_un {
+    margin-top: -90px;
+  }
 }
 
