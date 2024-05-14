@@ -74,13 +74,19 @@
 
 @media (max-width: 768px) {
   .banner {
-    display: none;
+    /*display: none;*/
   }
 }
 
 @media (max-width: 992px) {
   .link_header {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .library {
+    flex-direction: column;
   }
 }
 
